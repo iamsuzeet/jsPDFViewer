@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.btn {
+  background: coral;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.7rem 2rem;
+}
+
+#next-page {
+  float: right;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.page-info {
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  padding-top: 50px;
+  width: 140px;
+  transform: translate(-50%, -50%);
+}
+
+.error {
+  background: orangered;
+  color: #fff;
+  padding: 1rem;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+}
